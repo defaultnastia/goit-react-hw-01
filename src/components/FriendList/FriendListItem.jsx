@@ -1,7 +1,6 @@
 import css from "./FriendListItem.module.css"
 
 const FriendsListItem = ({ avatar, name, status }) => {
-	console.log(avatar, name, status)
   return (
 	<div className={css.friendCard}>
 		<img src={avatar} alt="Avatar" width="48px" />
